@@ -7,12 +7,17 @@ body {
 
 img {
   flex: 1;
-  width: 100px;
-  height: 100px;
+  width: 286px;
+  height: 286px;
   margin-bottom: 20px;
 }
 
 #urlHelp {
   margin-left: 10px;
   padding: 10px 0px 10px 0px;
+}
+
+p {
+  margin-left: 10px;
+  padding: 10px 0px 20px 5px;
 }
