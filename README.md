@@ -50,6 +50,6 @@ Shorten your URL, make your URL cuter. ;)
 
 ## Screenshot
 
-![index image about my restaurant list](.public/image/URL_20-7-2022_211947_localhost.jpeg)
+![index image about URL Shortener](./public/image/URL_20-7-2022_211947_localhost.jpeg)
 
-![index image about my restaurant list](.public/image/URL_20-7-2022_21209_localhost.jpeg)
+![index image about URL Shortener](./public/image/URL_20-7-2022_21209_localhost.jpeg)
