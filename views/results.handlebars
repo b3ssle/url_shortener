@@ -3,7 +3,25 @@
     class="card-img-top" alt="URL Shortener">
   <div class="card-body">
     <h5 class="card-title">URL Shortener</h5>
+    <input readonly value="{{origin}}/{{shortURL}}" id="shortURL">
+    <h5>{{originalURL}}</h5>
+    <button onclick="myFunction()">COPY the URL</button>
   </div>
-  <h1>{{shortURL}}</h1>
-  <h2>{{originalURL}}</h2>>
 </div>
+
+<script>
+  function myFunction() {
+      /* Get the text field */
+      var copyText = document.getElementById("shortURL");
+
+      /* Select the text field */
+      copyText.select();
+      copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+      /* Copy the text inside the text field */
+      navigator.clipboard.writeText(copyText.value);
+
+      /* Alert the copied text */
+      alert("Copied the text: " + copyText.value);
+    }
+</script>

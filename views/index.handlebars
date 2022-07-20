@@ -1,14 +1,16 @@
 <div class="card border-light mb-3 position-absolute top-50 start-50 translate-middle" style="max-width: 18rem;">
-  <img src="https://assets-lighthouse.alphacamp.co/uploads/image/file/16716/ExportedContentImage_00.png" class="card-img-top" alt="URL Shortener">
+  <img src="https://assets-lighthouse.alphacamp.co/uploads/image/file/16716/ExportedContentImage_00.png"
+    class="card-img-top" alt="URL Shortener">
   <div class="card-body">
     <h5 class="card-title">URL Shortener</h5>
   </div>
   <form action="/" method="POST">
-      <div class="form-floating mb-3" id="pasteUrlHere">
-        <input type="text" class="form-control" id="floatingInput" name="url" required="required" placeholder="https://www.google.com">
-        <label for="floatingInput">URL</label>
-        <div id="urlHelp" class="form-text">Please paste your URL here and click "Shorten".</div>
-        <button type="submit" class="btn btn-primary position-relative top-100 start-50 translate-middle">Shorten</button>
-      </div>
+    <div class="form-floating mb-3" id="pasteUrlHere">
+      <input type="url" class="form-control" id="floatingInput" name="url" required="required"  placeholder="https://www.google.com">
+      {{!-- required 表示使用者沒有輸入內容就無法送出表單 --}}
+      <label for="floatingInput">URL</label>
+      <div id="urlHelp" class="form-text">Please paste your URL here and click "Shorten".</div>
+      <button type="submit" class="btn btn-primary position-relative top-100 start-50 translate-middle">Shorten</button>
+    </div>
   </form>
 </div>
